@@ -1,0 +1,11 @@
+
+conda env create -f environment.yml
+
+
+
+
+pip uninstall bitsandbytes -y
+pip install --upgrade bitsandbytes #  0.45.4
+pip install flash-attn --no-build-isolation
+pip install ffmpeg-python # 0.2.0
+pip install --upgrade transformers # 4.50.3
