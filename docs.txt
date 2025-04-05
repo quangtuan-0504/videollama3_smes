@@ -8,6 +8,11 @@ pip uninstall bitsandbytes -y
 pip install --upgrade bitsandbytes #  0.45.4
 pip install flash-attn --no-build-isolation
 pip install ffmpeg-python # 0.2.0
+
+sudo apt-get update
+sudo apt-get install libgl1-mesa-glx
+pip install opencv-python
+
 pip install --upgrade transformers # 4.50.3
 pip install scikit-learn==1.6.1
 pip install nltk==3.9.1
